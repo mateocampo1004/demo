@@ -1,10 +1,7 @@
-package com.example.demo.model
+package com.ejemplo.demo.model
 
-
-class Model {
-
-    var id: Int = 0
-    var name: String = ""
-    var age: Int = 0
-
-}
+data class Model(
+    val nombre: String,
+    val email: String,
+    val edad: Int
+)
